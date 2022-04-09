@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dove cote educational</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap" rel="stylesheet">
+
+    </head>
+    <body class="ani"> 
+        <div class="menu">
+            <div class="menu-text">
+                <strong> Dovecote </strong>
+            </div>
+            <nav class="button">
+                    <button class="menu-button">HOME</button>
+                    <a href="aboutUs.html"><BUtton class="menu-button">ABOUT US</BUtton></a>
+                    <a href="admission.html"><button class="menu-button">ADMISSION</button></a>
+                    <a href="newEvent.html"><button class="menu-button">NEWS/EVENTS</button></a>
+                    <a href="checkResult.html"><button class="menu-button">CHECK RESULT</button></a>
+                    <a href="contactUs.html"><BUtton class="menu-button">CONTACT US</BUtton></a>
+            </nav>
+        </div>
+        <!--menu  section  ends  here-->
+            <div class="heading-container" >
+                <div class= "heading">
+                    <h1>Welcome to dovecote educational center</h1>
+                    <p>we are excellent, inteligent, peaceful and smart kids</p>
+                    <form >
+                        <label for="username">E-mail</label>
+                        <input id="email-el" type="email" placeholder="example@gmai.com">
+                        <br><br>
+                        <label for="password" >Password</label>
+                        <input type="password" name="pass" id="password-el" >
+                        <br><br>
+                        <p id="print-el">click login</p>
+                        <input type="button" value="Sign in" id="sign-el" class= "heading-button">
+                    </form>
+                    <p>i dont have an account? <a href="admission.html">Sign up</a></p>
+                </div>
+                <div class="image-flex"> 
+                    <img src="dovecote.jfif" alt="dovecote pictures"> 
+                </div>
+            </div>
+            <!--the random information starts here-->
+         <div class="information-container">
+             <div class="info-name">
+                 
+                    <h3>Some Random Information</h3>
+                    <div class="picture-container">
+                        <div class="pic1">
+                            <img src="libary.jpg" alt="liabary photo">
+                            <p>we have a world class liabary facility where children can find any kind of books</p>
+                        </div>
+                        <div class="pic1">
+                            <img src="playground.jpg" alt="playground images">
+                            <p>lots of fun activites and playing equipments</p>
+                        </div>
+                        <div class="pic1">
+                            <img src="ICT.jpg" alt="ict room">
+                            <p>world class ict room with all kind of digital technology you can tink of</p>
+                        </div>
+                        <div class="pic1">
+                            <img src="staffs.jpg" alt=" staffes photo">
+                            <p>qualified staffs with a master degree</p>
+                        </div>
+                    </div>    
+             </div>
+         </div>
+
+         <div class="quote-container">
+             <div class="quote-text">
+                 <h3>An investment in knowledge pays the best interest. –  Benjamin Franklin</h3>
+                 <h3>Change is the end result of all true learning. – Leo Buscaglia</h3>
+                 <h3>Education is the passport to the future, for tomorrow belongs to those who prepare for it today. – Malcolm X</h3>
+                 <h3>The roots of education are bitter, but the fruit is sweet. – Aristotle</h3>
+                 <h3>The friends  you keep matters alot, move with an idiot and be the second idiot, move with an inteligent guy and be the second inteligent guy. - Ebunoluwa Akinwumi</h3>
+             </div>
+             <div class="quote-title">
+                 <h2>Inspirational Quotes</h2>
+             </div>
+         </div>
+
+         <div class="gameContainer">
+            <h1>i can read your mind, lets play a mathematical mind game</h1> <br>
+            chose a number in your heart multiply it by <strong id="quest1"></strong> multiply by <strong id="quest2"></strong> again and
+            divide by the number you choose <br>Your ans is: <h3 id="ans"></h3> 
+            <button class="gameButton" onclick="start()">Start</button>
+            <button class="gameButton" onclick="result()">Result</button>
+            <button id="reset button" class="gameButton">Reset</button>
+        </div>
+
+        <div class="footer">
+            <footer>copyright © the odins project<br> <a href="ebuoluwaakinwumi@gmail.com">ebuoluwaakinwumi@gmail.com</a></footer>
+        </div>
+        <script src="index.js"></script>
+
+    </body>
+</html>

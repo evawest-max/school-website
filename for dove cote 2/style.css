@@ -1,0 +1,265 @@
+
+    
+.menu{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    border-radius: 50px;
+    margin: 0px 10px 0px 10px;
+    background-color: #40e0d0;
+    justify-content: space-evenly;
+    /*display: flex;
+    flex-direction: row;
+    
+    color: rgb(254, 254, 255);
+    padding-left: 600px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 3px;
+    0 
+    border-radius:300px;*/
+}
+    
+.button{
+    margin-left: 800px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu-button{
+
+    margin-right: 3px;
+    padding: 10px;
+    border-radius:100px;
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 5px 10px 16px 0px rgb(237, 240, 81);
+}
+.menu-text {
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100px;
+    background-color: transparent;
+    color: rgb(1, 1, 58);
+    font-size: larger;
+    font-family: crossorigin;
+    /*background-color: #4CAF50;
+    color: white;
+    margin-right: 100px;
+    font-size: 16px;
+    border:solid;
+    align-items: flex-end;
+    cursor: pointer;
+    height: auto;*/
+  }
+  /*.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    
+    z-index: 1;
+  }*/
+.ani{
+    background-image: url("ani.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+}    
+
+.heading-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(12, 23, 53);
+    margin: 10px;
+    border: solid;
+    border-radius: 50px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    color: rgb(243, 228, 200);
+}
+.image-flex{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    
+}
+.heading-button{
+    margin-right: 450px;
+    background-color: rgb(14, 9, 9);
+    color: wheat;
+    border-radius: 10px;
+    padding: 2px 2px 2px 2px;
+}
+.information-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 235, 218);
+    border: solid;
+    border-radius: 50px;
+    color: rgb(1, 1, 58);
+    border: solid;
+    margin: 10px;
+}
+.info-name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.picture-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media screen and (max-width:980px){
+    .information-container{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(245, 235, 218);
+        border: solid;
+        border-radius: 50px;
+        color: rgb(1, 1, 58);
+    }
+    .picture-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 1px;
+        margin: 50px;
+    }
+    .pic1{
+        display: flex;
+        flex-direction: column;
+        width: 1x;
+        box-shadow: 20px 20px 16px 0px rgba(0,0,0,0.2);
+    }
+    .heading-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: rgb(12, 23, 53);
+        margin: 50px;
+        border: solid;
+        border-radius: 50px;
+    }
+    .button{
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+.pic1{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    box-shadow: 20px 20px 16px 0px rgba(0,0,0,0.2);
+}
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    border: solid;
+    border-radius: 50px;
+    margin: 10px;
+}
+@media screen and (max-width:980px){
+    .quote-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(199, 199, 199);
+        border: solid;
+        border-radius: 5px;
+    }
+}
+.quote-text{
+    display: flex;
+    flex-direction: column;
+    font-family: corinthia;
+    font-size: x-large;
+    font-weight: 900;
+    justify-content: center;
+}
+.quote-title{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid;
+    border-radius: 50px;
+    background-color: rgb(2, 2, 68);
+    color: white;
+    padding: 24px;
+}
+/* style for addmission page starts here.*/
+.Details{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(2, 2, 73);
+    background-color: palegoldenrod;
+}
+.personalDetails{
+    background-color: palegoldenrod;
+    border: solid rgb(2, 2, 73);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.parents{
+    background-color: palegoldenrod;
+    border: solid rgb(2, 2, 73);
+    border-radius: 10px;
+}
+/* about section starts here*/
+.about{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: solid rgb(2, 2, 73);
+    background-color: palegoldenrod;
+    text-align: center;
+}
+/* contact us page begins here. */
+.contact{
+    margin-bottom: 50px;
+    border-radius: 50px;
+    border: solid rgb(2, 2, 73);
+    background-color: palegoldenrod;
+    align-content: ;
+}
+/* code for game start here*/
+.gameContainer{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(128, 115, 0);
+    background-color: green;
+    text-align: center;
+    margin: 0px 200px 20px 200px;
+}
+.gameButton{
+    margin: 0px 400px 5px 400px;
+    background-color: rgb(183, 233, 18);
+    color: indigo;
+}
+@media screen and (max-width:980px){
+    .gameButton{
+        margin: 0px 40px 5px 40px;
+        background-color: rgb(183, 233, 18);
+        color: indigo;
+    }
+}
