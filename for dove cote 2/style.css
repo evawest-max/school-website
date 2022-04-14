@@ -263,3 +263,10 @@
         color: indigo;
     }
 }
+.shoplist{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: bisque;
+    border: solid;
+}
