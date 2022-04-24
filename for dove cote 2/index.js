@@ -58,10 +58,13 @@ signIn.addEventListener("click", function(){
     if (emailValue.value===email && passwordHolder.value===password){
         alert("congrats")
     }
-    else {
+    else  {
         alert("incorret password")
     }
 })
-
-
-
+let initialFigure= 0
+newItem= getElementById("cartCount")
+newItem.addEventListener("click", function(){
+    newItem.textContent++
+    newItem.textContent=initialFigure
+})
