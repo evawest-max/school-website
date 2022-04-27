@@ -286,21 +286,26 @@
     width: 150px;
     padding-left: 50px;
 }
+.cartSearchcontainer{
+    display: flex;
+    flex-direction: row;
+}
 #cart{
     display: flex;
     flex-direction: row;
     border: solid rgb(4, 3, 3);
     background-color: white;
-    margin-left: 1000px;
+    margin-left: 800px;
+    margin-top: 5px;
     border-radius: 20px;
     font-weight: bolder;
 }
 #cartimage{
     width: 50px;
     padding-left: 15px;
+    padding-right: 30px;
 }
 .search{
-    width: 10px;
-    margin-top: 50px;
+    margin-top: 5px;
     margin-left: 50px;
 }

@@ -64,7 +64,8 @@ signIn.addEventListener("click", function(){
 })
 let initialFigure= 0
 newItem= getElementById("cartCount")
-newItem.addEventListener("click", function(){
-    newItem.textContent++
-    newItem.textContent=initialFigure
+addcart= getElementById("addEl")
+addcart.addEventListener("click", function(){
+    initialFigure= initialFigure+1
+    newItem.textContent=6
 })
