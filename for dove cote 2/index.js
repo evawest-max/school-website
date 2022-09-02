@@ -1,3 +1,15 @@
+
+    function gradingStudents(grades) {
+        //Write your code here
+        let newgrades=Math.ceil(grades/5)*5
+    if (newgrades-grades < 3 && grades>37){
+        console.log( newgrades) }
+        else if(grades<38){
+        console.log (grades)}
+        else{console.log (grades)}
+        //console.log( grades+2)
+    }
+gradingStudents(33)
 // mind game starts here
 let quest1= document.getElementById("quest1")
 let quest2= document.getElementById("quest2")
